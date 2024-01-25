@@ -6,7 +6,9 @@
 5. The sessions, will help that no one with no login credetians can access the Users dashboard.
 6. When unathorized users tries to access the dashboard he/she will directly be redirected to the login page.
 7. Forgot Password: Allows users to reset their passwords securely through email verification.
-8. other: Usage of password hashing and verification to ensure user credentials are securely managed.
+8. The forget password checks if the email does exist in the database if yes then it will open the "reset_password.php" and the user will input the new password.
+9. if no when the email doesn't exist it will show only the error message. 
+10. other: Usage of password hashing and verification to ensure user credentials are securely managed
          . Javascript: for adding validations into the pages. css: for styling the login,sigup anf forgot passwod page
-         . Php: the server side, where i used mysql
+         . Php: the server side, where i used MYSQL.
  
